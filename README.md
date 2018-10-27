@@ -21,4 +21,9 @@ Uses the await/async keywords which at the moment ESLint seems to object to.
 
 ## Duct Tape Programming
 
-This was written to solve an immediate need and at the moment has no unit tests. I also don't consider it production ready but it's still useful as an example of how to get this done. Just don't use it as an example of best-practices.  
+This was written to solve an immediate need and at the moment has no unit tests. I also don't consider it production ready but it's still useful as an example of how to get this done. Just don't get testy about best-practice violations.  
+
+## Trello API
+
+https://developers.trello.com/reference
+https://developers.trello.com/reference#cardsid-1
