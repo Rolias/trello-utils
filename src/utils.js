@@ -75,10 +75,7 @@ async function extractMembers(idArray) {
 
 }
 
-
-
 module.exports = {
   sendStringToFile,
   turnCardsIntoTsv,
-
 }
