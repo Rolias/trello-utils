@@ -15,6 +15,10 @@ function getMemberFullName(id) {
   `/1/members`
 }
 
+function getCardsFromListIdCmd(listId) {
+  return `/1/lists/${listId}/cards`;
+}
+
 async function turnCardsIntoTsv(cards, type = "") {
   let output = "";
 
@@ -78,4 +82,5 @@ async function extractMembers(idArray) {
 module.exports = {
   sendStringToFile,
   turnCardsIntoTsv,
+  getCardsFromListIdCmd,
 }
